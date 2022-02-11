@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <hr>
+        <h1>Pseudo-classes</h1>
+        <hr>
+
+        <div class="box">
+            <button class="active diseno">:active</button>
+            <p>:active de CSS  representa un elemento (como un botón) que el usuario está activando.  Cuando se usa un mouse, la "activación" generalmente comienza cuando el usuario presiona el botón primario del mouse y termina cuando se suelta. </p>
+        </div>
+        <div class="box">
+            <input type="text" class="disabled diseno" placeholder="input-disabled" disabled/>
+            <p>La pseudo-clase :disabled de CSS representa a cualquier elemento deshabilitado. Un elemento se encuentra deshabilitado si no puede ser activado (por ejemplo ser selecionado, hacer click en él o aceptar texto de entrada) ni aceptar el foco. El elemento tiene además un estado habilitado en el cual puede ser activado o recibir foco. </p>
+            
+        </div>
+        <div class="box">
+            <input type="email" class="focus diseno" placeholder="Focus" />
+            <p>:focus CSS representa un elemento (como una entrada de formulario) que ha recibido el foco. Generalmente se activa cuando el usuario hace clic, toca un elemento o lo selecciona con la tecla "Tab" del teclado. </p> 
+        </div>
+        <div class="box">
+            <button class="hover diseno">:hover</button>
+            <p>:hover de CSS coincide cuando el usuario interactúa con un elemento con un dispositivo señalador, pero no necesariamente lo activa. Generalmente se activa cuando el usuario se desplaza sobre un elemento con el cursor (puntero del mouse). </p>   
+        </div>
+        <div class="box">
+            <a href="" class="link diseno">:link</a>
+            <p>:link CSS representa un elemento que aún no se ha visitado.</p>
+        </div>
+
+        <hr>
+        <h1>Pseudo-elementos</h1>
+        <hr>
+
+        <div class="box">
+            <button class="after diseno">::after</button>
+            <p>::after crea un pseudo-elemento que es el último hijo del elemento seleccionado. Es comunmente usado para añadir contenido cosmético a un elemento con la propiedad content.Es en linea (inline) de forma predeterminada. </p>
+        </div>
+        <div class="box">
+            <button class="before diseno">::before</button>
+            <p>::before crea un pseudoelemento que es el primer hijo del elemento seleccionado. Es usado normalmente para añadir contenido estético a un elemento, usando la propiedad content. Este elemento se muestra en línea con el texto de forma predeterminada. </p>
+        </div>
+        <div class="box">
+            <h3 class="first-letter diseno">first-letter</h3>
+            <p>::first-letter aplica estilos a la primera letra de la primera línea un elemento de bloque, sólo cuando no es precedido de otro contenido (como imágenes o tablas). </p>
+            
+        </div>
+        <div class="box">
+            <h3 class="first-line diseno">::first-line</h3>
+            <p>::first-line aplica estilos a la primera línea de un elemento de bloque. Nótese que la longitud de la primera línea depende de muchos factores, incluyendo el ancho del elemento, el ancho del documento y el tamaño de fuente del texto. </p>
+            
+        </div>
+        <div class="box">
+            <input class="placeholder diseno" placeholder="here! placeholder">::placeholder</input>
+            <p>::placeholder representa el texto provisional en un elemento "input" o un elemento "textarea". </p>
+            
+        </div>
+
+    </div>
+    
+</body>
+</html>
